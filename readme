@@ -1,0 +1,37 @@
+CS4701 Artificial Intelligence - wumpus world
+
+Team Member
+-----------
+Jingyi	Guo		(jg3421)
+
+Files
+-----
+README						- this file
+Makefile					-compile *.java to *.class
+CellInf.java					- define information of each cell
+InitEnv.java					- define the initial wumpus enviroment
+Test.java					- contain the main method to learn the wumpus world info
+
+How to run
+----------
+1. Move to src directory:
+	$ cd Wumpus
+2. Perform makefile:
+	$ make
+3. run the Demon program
+	$ java Test
+4. clean the *.class
+	$ make clean
+
+Description
+-----------
+This program was designed to use AI method learn the wumpus world. It is first
+to initilize the wumpus world and then begin the game to learn the info of each
+cell and update the knowledge base, finally make the decision what is the next 
+action.
+
+
+Test
+----
+I have test programe at CLIC machine.
+It worked nicely.

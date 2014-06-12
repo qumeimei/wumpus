@@ -1,0 +1,115 @@
+
+The initial environment of wumpus world is as follows.
+
+
+
+********* Wumpus World*********
+
+Positions of pit, wumpus and glod are as follows:
+
+-----------------------------------------------------------------
+|	1	|	2	|	3	|	4	|	
+-----------------------------------------------------------------
+|	5	|	6	|	7	|	8	|	
+-----------------------------------------------------------------
+|	9	|	10	|	11	|	12	|	
+-----------------------------------------------------------------
+|	13	|	14	|	15	|	16	|	
+-----------------------------------------------------------------
+Agent start position: 13
+
+-----------------------------------------------------------------
+|	S	|		|	B	|	P	|	
+-----------------------------------------------------------------
+|	W	|	BSG	|	P	|	B	|	
+-----------------------------------------------------------------
+|	S	|		|	B	|		|	
+-----------------------------------------------------------------
+|	A	|	B	|	P	|	B	|	
+-----------------------------------------------------------------
+*A:Agent; S:Stench; B: Breeze; G: Gold; W: Wumpus; P:Pit
+
+
+Update wumpus world...
+
+go now at start position=13
+
+go right position=14
+
+go up pos= 10
+
+go down pos= 14
+
+go right position=15
+
+Fall in pit! You are failed....rethinking
+
+go right position=16
+
+go up pos= 12
+
+go down pos= 16
+
+go left pos= 15
+
+Fall in pit! You are failed....rethinking
+
+go up pos= 11
+
+go right position=12
+
+go up pos= 8
+
+go left pos= 7
+
+Fall in pit! You are failed....rethinking
+
+go up pos= 3
+
+go right position=4
+
+Fall in pit! You are failed....rethinking
+
+go down pos= 8
+
+go down pos= 12
+
+go left pos= 11
+
+go left pos= 10
+
+go up pos= 6
+
+find Gold!!
+
+go left pos= 5
+
+It is Wumpus! You are failed....rethinking...
+
+go up pos= 1
+
+go right position=2
+
+go down pos= 6
+
+find Gold!!
+
+go down pos= 10
+
+go left pos= 9
+
+
+get all infor. for wupus world
+
+-----------------------------------------------------------------
+|	S	|		|	B	|	P	|	
+-----------------------------------------------------------------
+|	W	|	GBS	|	P	|	B	|	
+-----------------------------------------------------------------
+|	S	|		|	B	|		|	
+-----------------------------------------------------------------
+|		|	B	|	P	|	B	|	
+-----------------------------------------------------------------
+*S:stench; B: Breeze; G: Gold; W:Wumpuss; P: Pit
+
+Total step used is 25
